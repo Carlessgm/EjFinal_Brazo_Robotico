@@ -1,6 +1,8 @@
 #include <iostream>
 #include "BrazoRobotico.h"
 
+using namespace std;
+
 int main(){
 	BrazoRobotico b(0, 0, 0, 0);
 	cout << "Posicion: (" << b.obtenerX() << ", " << b.obtenerY() << ", " <<

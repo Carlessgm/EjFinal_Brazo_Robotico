@@ -7,9 +7,9 @@ class BrazoRobotico{
 		int objsuj;
 	public:
 		BrazoRobotico(double x, double y, double z, int objsuj);
-		int obtenerX();
-		int obtenerY();
-		int obtenerZ();
+		double obtenerX();
+		double obtenerY();
+		double obtenerZ();
 		int obtenerObjsuj();
 		void coger();
 		void soltar();
